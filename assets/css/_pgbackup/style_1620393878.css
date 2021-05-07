@@ -295,8 +295,9 @@ section.p-b {
     width: 410px;
     margin-top: -25px;
     position: absolute;
-    left: 36.5% !important;
+    left: 50%;
     z-index: 10;
+    right: 50%;
     float: none;
 }
 
