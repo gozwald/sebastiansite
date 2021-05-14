@@ -300,7 +300,6 @@ section.p-b {
     width: 410px;
     margin-top: -25px;
     position: absolute;
-    left: 36.5% !important;
     z-index: 10;
     float: none;
 }
@@ -336,7 +335,6 @@ section.p-t {
 
     .circle-4 {
         width: 340px !important;
-        left: 33.5% !important;
     }
 
     section.p-t {
@@ -347,25 +345,19 @@ section.p-t {
         width: 340px;
         height: 340px;
         padding-top: 60px;
-        left: 100px;
+        left: 70px;
     }
 }
 
-@media screen and (max-width: 992px) {
-    .circle-4 {
-        left: 31.5% !important;
-    }
+.Ellipse-19 {
+    width: 340px;
+    height: 340px;
+    padding-top: 70px;
+    left: 140px;
+}
 
-    .Ellipse-19 {
-        width: 340px;
-        height: 340px;
-        padding-top: 70px;
-        left: 70px;
-    }
-
-    .main-sec-1 {
-        padding-top: 140px !important;
-    }
+.main-sec-1 {
+    padding-top: 140px !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -375,7 +367,6 @@ section.p-t {
 
     .circle-4 {
         width: 300px !important;
-        left: 30.5% !important;
     }
 
     section.p-t {
@@ -397,7 +388,6 @@ section.p-t {
 @media screen and (max-width: 576px) {
     .circle-4 {
         width: 240px !important;
-        left: 23.5% !important;
     }
 
     .Ellipse-19 {
@@ -447,7 +437,6 @@ section.p-t {
 @media screen and (max-width: 320px) {
     .circle-4 {
         width: 200px !important;
-        left: 15.5% !important;
     }
 
     .Ellipse-19 {
@@ -487,4 +476,5 @@ section.p-t {
 
 headerimage {
     max-height: 2;
+}
 }
