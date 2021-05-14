@@ -28,11 +28,6 @@
     src: url("../fonts/OpenSans-Regular.ttf");
 }
 
-.ball {
-    display: flex;
-    justify-content: center;
-}
-
 body {
     background-color: #fffff9;
     font-family: "Open_Sans_Reg", sans-serif;
@@ -52,7 +47,7 @@ a:hover {
 
 h1 {
     font-family: "PT_Serif_Bold", serif;
-    font-size: 29px;
+    font-size: 32px;
     line-height: 38px;
 }
 
@@ -300,6 +295,7 @@ section.p-b {
     width: 410px;
     margin-top: -25px;
     position: absolute;
+    left: 36.5% !important;
     z-index: 10;
     float: none;
 }
@@ -315,12 +311,12 @@ section.p-t {
 .Ellipse-19 {
     display: inline-block;
     position: absolute;
-    left: 143px;
+    left: 122px;
     margin-top: 160px;
-    width: 400px;
-    height: 400px;
+    width: 440px;
+    height: 440px;
     flex-grow: 0;
-    padding: 101px 21px 130.2px;
+    padding: 131px 21px 130.2px;
     background-color: #ffc107;
     box-sizing: border-box;
     border-radius: 100%;
@@ -335,6 +331,7 @@ section.p-t {
 
     .circle-4 {
         width: 340px !important;
+        left: 33.5% !important;
     }
 
     section.p-t {
@@ -349,7 +346,10 @@ section.p-t {
     }
 }
 
-
+@media screen and (max-width: 992px) {
+    .circle-4 {
+        left: 31.5% !important;
+    }
 
     .Ellipse-19 {
         width: 340px;
@@ -370,6 +370,7 @@ section.p-t {
 
     .circle-4 {
         width: 300px !important;
+        left: 30.5% !important;
     }
 
     section.p-t {
@@ -391,6 +392,7 @@ section.p-t {
 @media screen and (max-width: 576px) {
     .circle-4 {
         width: 240px !important;
+        left: 23.5% !important;
     }
 
     .Ellipse-19 {
@@ -440,6 +442,7 @@ section.p-t {
 @media screen and (max-width: 320px) {
     .circle-4 {
         width: 200px !important;
+        left: 15.5% !important;
     }
 
     .Ellipse-19 {
