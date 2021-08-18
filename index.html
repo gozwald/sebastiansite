@@ -258,9 +258,9 @@ und lernen können.</p>
                     <div class="input-group-append mr-3">
                         <button type="submit" class="btn fl-submit float" style="display: none;">Newsletter abonnieren</button>
                     </div>
-                    <button data-tooltip="Aktuelle Infos über meine Vorträge, Workshops oder Veröffentlichungen" type="button" class="action-btn">
+                    <button type="button" class="action-btn">
                         <img src="assets/images/close.svg" id="icon" style="display: none;">
-                        <img src="assets/images/envlp2.svg" id="icon1" width="40" height="50" style="">
+                        <img data-toggle="tooltip" title="Aktuelle Infos über meine Vorträge, Workshops oder Veröffentlichungen" src="assets/images/envlp2.svg" id="icon1" width="40" height="50" style="">
                     </button>
                 </div>
             </form> </span> 
@@ -268,5 +268,11 @@ und lernen können.</p>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>     
-    <script src="assets/js/script.js"></script>     
+    <script src="assets/js/script.js">
+    </script> 
+    <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>    
 </html>
